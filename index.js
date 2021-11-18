@@ -8,7 +8,7 @@ async function dispUser() {
   if (!input || input > 10 || input <= 0) return; // nothing will happen if the input number is invalid
   let currentUserId = input;
   let response = await fetch(
-    "http://jsonplaceholder.typicode.com/users/" + input
+    "https://jsonplaceholder.typicode.com/users/" + input
   );
   let user = await response.json();
   let dispDiv = document.getElementById("disp");
