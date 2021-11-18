@@ -3,6 +3,7 @@ window.onload = function () {
   searchBtn.addEventListener("click", dispUser); //btn to display the user after input
 };
 ////////////////////////////////////function to display user
+//test
 async function dispUser() {
   let input = document.getElementById("inp").value;
   if (!input || input > 10 || input <= 0) return; // nothing will happen if the input number is invalid
